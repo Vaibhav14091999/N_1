@@ -23,6 +23,13 @@ void bubbleSort(int *a, int n){
     }
 }
 
+void printarray(int *arr, int n){
+    for(int i=0; i<n; i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
+}
+
 int main(){
     int arr[] = {5,3,6,7,1,2,4};
     printarray(arr,7);
